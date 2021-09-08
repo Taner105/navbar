@@ -19,7 +19,7 @@
     margin: 15px;
     list-style: none;
     margin-top: 30px;
-    
+  
 
 }
 .navbar .logo{
@@ -41,14 +41,14 @@
     padding: 5px 5px;
     font-family: roboto;
 }
-.navbar ul li a.hover,
-.navbar ul li a:hover{
+.navbar ul li a:hover,
+.navbar ul li a.hover{
     background: tomato;
     border-radius: 3px;
 }
 .contaıner .center{
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -85,5 +85,7 @@
     outline: none;
     
     
-
+}
+.buttons button:hover{
+    background: white;
 }
